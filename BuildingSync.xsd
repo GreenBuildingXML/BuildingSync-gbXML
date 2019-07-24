@@ -5504,6 +5504,14 @@
                             </xs:simpleContent>
                           </xs:complexType>
                         </xs:element>
+                        <xs:element name="AnnualSavingsConsistentUnits" minOccurs="0">
+                          <xs:annotation>
+                            <xs:documentation>Site energy savings per year for this resource type, in consistent units. (kBtuyr)</xs:documentation>
+                          </xs:annotation>
+                          <xs:complexType>
+                            <xs:attribute ref="auc:Source"/>
+                          </xs:complexType>
+                        </xs:element>
                       </xs:sequence>
                     </xs:complexType>
                   </xs:element>
